@@ -1,0 +1,99 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
+
+
+
+
+.historique-container {
+  padding: 2rem;
+  background-color: #f0f4f8;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.historique-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #2b7a9f;
+  margin-bottom: 2rem;
+}
+
+.historique-table-container {
+  width: 100%;
+  max-width: 1500px;
+  overflow-x: auto;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.historique-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.historique-table thead {
+  background-color: #d9eff9;
+}
+
+.historique-table th,
+.historique-table td {
+  padding: 14px 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.historique-table th {
+  color: #2b7a9f;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.historique-table tbody tr:nth-child(even) {
+  background-color: #f9fbfc;
+}
+
+.historique-table tbody tr:hover {
+  background-color: #eaf6fc;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.historique-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background-color: #2b7a9f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 6px rgba(43, 122, 159, 0.3);
+}
+
+.historique-button:hover {
+  background-color: #1e6073;
+}
+
+.historique-button i {
+  font-size: 0.9rem;
+}
+.dataTables_wrapper {
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+.dataTables_filter input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin-left: 0.5rem;
+}

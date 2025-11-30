@@ -1,0 +1,11 @@
+server:
+  port: 9102
+
+spring:
+  application:
+    name: zull-server
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false

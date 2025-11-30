@@ -1,0 +1,124 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #2b7a9f;
+  min-height: 100vh;
+  padding: 20px;
+}
+.form-container {
+  background: white;
+  padding: 2.5rem; /* زيادة الحشو قليلاً */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width:1700px; /* زيادة العرض */
+  margin-bottom: 30px;
+}
+
+/* إضافة تنسيق جديد لأقسام العناوين في سطر واحد */
+.title-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.title-section h1,
+.title-section h2 {
+  margin: 0;
+}
+
+/* إضافة بعض الهوامش لتفصل العناوين بشكل جيد */
+.title-section h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.title-section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #555;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.shadow-lg {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.rounded-lg {
+  border-radius: 8px;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.table-auto {
+  table-layout: auto;
+}
+
+.table-auto th,
+.table-auto td {
+  padding: 8px 16px;
+}
+
+.bg-gray-100 {
+  background-color: #f7fafc;
+}
+.metrics-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap; /* للتجاوب على الشاشات الصغيرة */
+  margin-top: 2rem;
+}
+
+/* كل قسم يأخذ عرضاً متساوياً تقريباً */
+.historique-info
+{
+  flex: 1;
+  max-width:150px;
+}
+
+
+
+.table-section,
+.chart-section {
+  flex: 1;
+  min-width: 380px;
+}
+
+.comparison-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* يفصل بينهم */
+  gap: 24px; /* مسافة بين الأعمدة */
+  flex-wrap: wrap; /* ليتجاوبوا وينزلوا تحت على الشاشات الصغيرة */
+  margin-top: 1.5rem;
+}
+
+/* كل عنصر (كل مخطط) ياخذ تقريباً نفس المساحة */
+.evolution-chart,
+.algorithms-chart {
+  flex: 1;
+  min-width: 350px; /* نفس اللي عندك في JSX */
+}
