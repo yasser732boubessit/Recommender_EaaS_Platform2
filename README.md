@@ -221,6 +221,7 @@ This platform provides:
 
 Recommender-EaaS/
 │
+
         ├── backend/
         │ ├── manager-service/
         │ ├── replay-service/
