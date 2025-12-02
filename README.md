@@ -177,7 +177,7 @@ This platform provides:
 
 ---
 
-# 🧩 Architecture
+# 🧩 Architecture Diagram
 
 ![Architecture Diagram](docs/architecture.png)
 
@@ -221,24 +221,24 @@ This platform provides:
 
 Recommender-EaaS/
 │
-├── backend/
-│ ├── manager-service/
-│ ├── replay-service/
-│ ├── dataReader-service/
-│ ├── Evaluation-service/
-│ ├── gateway/
-│ └── config-server/
-│
-├── frontend/
-│ ├── public/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── utils/
-│ │ ├── hooks/
-│ │ └── services/
-│
-└── docker-compose.yml
+        ├── backend/
+        │ ├── manager-service/
+        │ ├── replay-service/
+        │ ├── dataReader-service/
+        │ ├── Evaluation-service/
+        │ ├── gateway/
+        │ └── config-server/
+
+        ├── frontend/
+        │ ├── public/
+        │ ├── src/
+        │ │ ├── components/
+        │ │ ├── pages/
+        │ │ ├── utils/
+        │ │ ├── hooks/
+        │ │ └── services/
+        │
+        └── docker-compose.yml
 
 yaml
 Copier le code
