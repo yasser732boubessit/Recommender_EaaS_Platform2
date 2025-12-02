@@ -44,9 +44,7 @@ The architecture diagram illustrates how each component collaborates to form a f
 
 ---
 
-## 🏗 System Architecture
 
-![Architecture Diagram](docs/architecture.png)
 
 
 ## 🌐 1. Public Entry Point – UI & API Gateway
@@ -181,7 +179,7 @@ This platform provides:
 
 # 🧩 Architecture
 
-*(Insert the architecture image here if needed in GitHub)*
+![Architecture Diagram](docs/architecture.png)
 
 ---
 
