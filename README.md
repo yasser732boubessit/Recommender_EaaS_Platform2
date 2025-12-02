@@ -220,7 +220,7 @@ This platform provides:
 # 📁 Project Structure
 
 Recommender-EaaS
-│
+
 
         ├── backend/
         │ ├── manager-service/
