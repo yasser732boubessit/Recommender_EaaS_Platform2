@@ -44,6 +44,11 @@ The architecture diagram illustrates how each component collaborates to form a f
 
 ---
 
+## 🏗 System Architecture
+
+![Architecture Diagram](docs/architecture.png)
+
+
 ## 🌐 1. Public Entry Point – UI & API Gateway
 
 The user interacts through a **React.js UI**, which communicates only with the **Spring Cloud Gateway**.  
