@@ -219,7 +219,7 @@ This platform provides:
 
 # 📁 Project Structure
 
-Recommender-EaaS/
+Recommender-EaaS
 │
 
         ├── backend/
@@ -230,16 +230,16 @@ Recommender-EaaS/
         │ ├── gateway/
         │ └── config-server/
 
-        ├── frontend/
-        │ ├── public/
-        │ ├── src/
-        │ │ ├── components/
-        │ │ ├── pages/
-        │ │ ├── utils/
-        │ │ ├── hooks/
-        │ │ └── services/
-        │
-        └── docker-compose.yml
+            ├── frontend/
+            │ ├── public/
+            │ ├── src/
+            │ │ ├── components/
+            │ │ ├── pages/
+            │ │ ├── utils/
+            │ │ ├── hooks/
+            │ │ └── services/
+            │
+            └── docker-compose.yml
 
 yaml
 Copier le code
